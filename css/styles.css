@@ -1,56 +1,40 @@
-body{
+body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
 	margin: 0;
 	color: #4f4b44;
+	background-color: #EDF2F6FF;
 }
-header{
-	position: fixed;
-	/*padding: 5%;*/
-	width: 100%;
+
+.container {
 	background: rgba(255,255,255,0.5);
 }
-header h1{
+
+
+header h1 {
 	margin: 5px;
 	float: left;
 }
-header h3{
+
+header h3 {
 	margin: 15px 10px;
 	float: right;
 }
-#project-gallery{
-	z-index: 1;
-}
-.project-card{
-	background: rgba(166, 166, 166, 0.25);
-	width: 30%;
 
-	display: inline-block;
+figure img {
+	width: 100%;
 }
-figure{
-	margin: 0;
+
+figcaption {
+	font-size: .9em;
 	padding: 2%;
-}
-figure img{
-	width: 100%;
-}
-figcaption{
 	background: rgba(166, 166, 166, 0.25);
 }
-aside{
-	float: right;
-}
-#hero-image{
-	width: 100%;
 
+#hero-image {
+	width: 100%;
 }
-@media only screen and (max-width: 900px) {
-	header{
-		position: relative;
-		background: white;
-	}
-	.project-card{
-		width: 96%;
-		margin: 2%;
-	}
+
+#farewell {
+	text-align: right;
 }
